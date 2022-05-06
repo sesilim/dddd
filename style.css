@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: yellow;
+
+}
+@media only screen and (mid-width:600px){
+    body
+}
+he{
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+    color: black;
+
+}
+p{
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color:black;
+    opacity: 0.6;
+}
+button{
+    background: #ff99cb;
+    border-radius: 10px;
+    width: 260;
+    height: 70px;
+    border: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    color:black;
+
+}
+.nav-link a:hover{
+    color: black
+    opacity: 1;
+}
+.header-align{
+    display: flex;
+    list-style: none;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.justify-center{
+    display:flex;
+    justify-content: center;
+}.container{
+    width: 1320px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.col-6{
+    width: 50%;
+}
+.d-flex{
+    display: flex;
+}
+.mt-5{}
